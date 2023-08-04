@@ -34,10 +34,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'calibri';
 }
 .navbar .logo a{
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: 'calibri';
 }
 .navbar .links{
     display: flex;
