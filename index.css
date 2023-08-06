@@ -74,7 +74,7 @@ a{
     color: #fff;
     font-size: 1rem;
 }   
-a:hover{
+.action_btn  a:hover{
     color: orange;
 }
 header{
@@ -127,8 +127,7 @@ header{
 	align-items: center;
 }
 .action_btn{
-    background-color: orange;
-    color: #fff;
+    color: #34ffea;
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
@@ -137,6 +136,9 @@ header{
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
+	background: #211663;
+	cursor: pointer;
+	transition: .5s;
 }
 .action_btn-2{
 	background-color: orange;
@@ -149,10 +151,20 @@ header{
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
+	cursor: pointer;
+	transition: .5s;
 }
-.action-btn:hover{
+.action_btn-2:hover{
     scale: 1.05;
     color: #fff;
+	background-color:#133050 ;
+}
+
+
+.action_btn:hover{
+    scale: 1.15;
+    color: #fff;
+	background-color:#0e1a27 ;
 }
 .action-btn:active{
     scale: 0.95;
@@ -283,11 +295,29 @@ header{
 }
 .btn{
     display: inline-block;
-    padding: 11px 35px;
-    background-color: #8098b1;
-    color: #fff;
+    padding: 10px 40px;
+    color: #34ffea;
     text-transform: uppercase;
+	letter-spacing: 2px;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	box-shadow: 0 20px 50px reg(255 255 255 / 5%) ;
+	background: #211663;
+	cursor: pointer;
+	transition: .5s;
+	border-radius: 10px;
 }
+.btn:hover{
+	background-color: #0e1a27;
+	color: #fff;
+	scale: 1.10;
+}
+
+
+
+
+
 html{
 	scroll-behavior: smooth;
 }
