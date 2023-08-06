@@ -84,16 +84,18 @@ header{
     right: 2rem;
     top: 60px;
     width: 300px;
-    background: #0a121a;
+    background: #0e1a27;
     backdrop-filter: blur(15px);
     border-radius: 10px;overflow: hidden;
     display: none;
     height: 0;
     overflow: hidden;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   
 }
 .dropdown_menu.open{
     height: 240px;
+    border: 1px solid rgb(230, 230, 230);
 }
 .dropdown_menu li{
     padding: 0.7rem;
