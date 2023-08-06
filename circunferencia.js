@@ -5,8 +5,8 @@ function circunferencia(){
     var R,L,PI;
     R=parseFloat(document.getElementById("radio").value);
     PI=parseFloat(document.getElementById("pi").value);
-    L=2*PI*R;
-    window.alert("La longitud de su circunferencia es: "+L);
+    L=PI*Math.pow(R,2);
+    window.alert("El Area de su circunferencia es: "+L);
 }
 
 
