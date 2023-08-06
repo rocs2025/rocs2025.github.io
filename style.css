@@ -159,6 +159,10 @@ header{
     font-size: 22px;
     margin-bottom: 20px;
 }
+.form-register h1{
+    font-size: 11px;
+    margin-bottom: 20px;
+}
 .controls{
     width: 100%;
     background: #1b2127;
