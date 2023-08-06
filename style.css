@@ -2,6 +2,8 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
 }
 body{
     text-align: center;
@@ -84,7 +86,7 @@ header{
     right: 2rem;
     top: 60px;
     width: 300px;
-    background: #0e1a27;
+    background: #0a121a;
     backdrop-filter: blur(15px);
     border-radius: 10px;overflow: hidden;
     display: none;
