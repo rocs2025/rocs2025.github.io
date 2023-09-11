@@ -198,4 +198,7 @@ header{
     .form-register h4{
         font-size: 1.8rem;
     }
+    .box{
+        font-size: 18px;
+    }
 }

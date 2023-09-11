@@ -2,26 +2,6 @@
 
 
 
-function positivo()
- {
-     var number1,number2;
-      number1 = parseFloat(document.getElementById("n1").value);
-      number2 = parseFloat(document.getElementById("n2").value);
-      
-    if (number1,number2 > 0){
-       window.alert("sus numeros son positivos")
-      } else{
-            window.alert("sus numeros son negativos");
-      
-    }
-      
-
-
-
-
-}
-     
-
 
 
 
