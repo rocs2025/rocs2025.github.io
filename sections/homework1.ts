@@ -116,55 +116,9 @@ console.log( myMazda );
 
 console.log( Car.className );
 /*/
-
+export
 let pounds = 150;
 let kgs;
 kgs= pounds/2.205;
 console.log('150 lbs es a igual a: '+kgs+ '' +'kilogramos');
 
-let kms = 10;
-let miles = kms*0.621371;
-console.log('10 kms son: '+miles+ '' +'millas')
-
-
-let numbers = [1, 6,8,-14,2,7,-10,3,5];
-let maxMunber = -999999;
-for (let i = 0; i< numbers.length; i++){
-    if(numbers[i]>= maxMunber){
-        maxMunber = numbers[i]
-    }
-}
-console.log('El número mayor es:', maxMunber);
-
-
-let numbers1 = [1,6,8,4,2,7,10,3,5];
-for (let i= 0; i < numbers.length; i++){
-  let number = numbers1[i];
-  if ((number%2)===0){
-    console.log(number+ 'es par');
-  } else{
-    console.log(number+ 'es impar');
-  }
-}
-
-
-for (let i=1; i <=5; i++){
-  let line = '';
-  for(let j =1; j <= 5; j++){
-    line += `${j * i}` 
-  }
-  console.log(line);
-}
-
-
-function max(a:number, b:number, c:number){
-  if (a > b){
-    return (a > c)? a : c;
-  }
-  if ( b > c) {
-    return b;
-  }
-  return ( a > c)? a:c;
-}
-let maxValue = max(11,22,33);
-console.log(maxValue);
