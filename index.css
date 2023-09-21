@@ -71,6 +71,7 @@ a{
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
+	align-items: center;
 }   
 .action_btn  a:hover{
     color: orange;
@@ -78,7 +79,7 @@ a{
 header{
     position: relative;
     padding: 0 2rem;
-
+	
 }
 .titular{
 	height: 720px;
