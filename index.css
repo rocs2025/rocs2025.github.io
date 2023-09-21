@@ -6,6 +6,9 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 }
+body{
+	background-color: #000000;
+}
 h1{
 	font-size: 4rem;
 	font-weight: 700;
@@ -45,10 +48,7 @@ html, body, .cover{
 	height: 100%;
 }
 
-body{
-	
- background: url(img/development2.jpg);
-}
+
 
 /* FONDO */
 /*CABECERA*/
@@ -61,6 +61,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	color: white;
+	
 }
 
 
@@ -79,6 +80,11 @@ a{
 header{
     position: relative;
     padding: 0 2rem;
+
+}
+.titular{
+	height: 720px;
+	background: url(img/development2.jpg);
 }
 .logo{
     right: 2rem;
@@ -257,18 +263,18 @@ p span:hover{
     .presentacion h1 {
         font-size: 1.8rem;
     }
+	.presentacion img{
+		background-position: center;
+	}
 	.box-container {
 		align-items: center;
-		width: 100%;
+		width: 72%;
 		height: 100vh;
-		overflow-x: hidden;
-		scroll-snap-type: x mandatory;
+		margin-bottom: 15px;
+		
 	}
     .box-container .box{
-		flex: 0 0 100%;
-		width: 100%;
-		object-fit: cover;
-		scroll-snap-align: center;
+		flex-direction: column;
 	}
  }
 
@@ -362,8 +368,8 @@ html{
 }
 @media (max-width: 768px) {
 	.sau {
-		height: 100vh;
-		padding: 50px 0;
+		height: 120vh;
+		padding: 90px 0;
 	}
 	.title{
 		margin-bottom: 0px;
@@ -385,11 +391,7 @@ html{
 	
 }
 
-.carrusel{
-	display: flex;
-	flex-wrap: nowrap;
-	overflow: hidden;
-}
+
 .elementos{
 	flex: 1 0 auto;
 	margin: 0 50px;
