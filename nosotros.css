@@ -219,16 +219,37 @@ p{
 
 .texto{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 img{
     width: 270px;
     height: 350px;
     border-radius: 15px;
     background-color: white;
+    margin-left: 85px;
+    margin-top: 20px;
 }
 .contenedor-parrafoboton{
     width: 43%;
     height: 20%;
     margin-bottom: 38px;
     margin-left: 5px;
+}
+
+@media (max-width:425px){
+    .contenedor-sobremi{
+        flex-direction: column;
+    }
+    .contenedor-parrafoboton{
+        width: 90%;
+        margin-left: 30px;
+
+    } 
+    .imagen{
+        margin-left: 50px;
+    }
+    .boton{
+        background: #0e063a;
+        margin-left: 50px;
+    }
 }
